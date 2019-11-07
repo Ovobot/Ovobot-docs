@@ -16,5 +16,12 @@ Ovobot（奥瓦机器人）是一家集软硬件研发，课程体系设计，�
 
    Ovobot_Bit/introduction
    Ovobot_Bit/Ovobot_Bit_Scratch/index
+   Ovobot_Bit/Ovobot_Bit_MicroPython/index
+   Ovobot_Bit/Ovobot_Bit_MakeCode/index
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Xtron：
+
+   Xtron/introduction
 
