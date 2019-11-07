@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Ovobot-docs'
-copyright = '2019, Justin'
+project = 'Ovobot'
+copyright = '2019, Ovobot'
 author = 'Justin'
 
 # The full version, including alpha/beta/rc tags
