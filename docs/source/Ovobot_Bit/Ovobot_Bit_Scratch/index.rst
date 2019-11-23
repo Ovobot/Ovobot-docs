@@ -15,24 +15,28 @@ Ovobot Bit Scratch指南
 """""""""""""""""""
 
 .. image:: images/move.png
+   :width: 154
 
 设置Bit的前进或后退的速度，数值范围为0~255。
 
 例子：
 
 .. image:: images/move_example.png
+   :width: 154
 
 设置移动速度及时间程序块
 """"""""""""""""""""""""
 
 .. image:: images/move_duration.png
+   :width: 260.5
 
 通过设定机器人运动方向、运动速度和持续时间来让机器人运动，速度范围为0~255。
 
 例子：
 
 .. image:: images/move_duration_example.png
-
+   :width: 260.5
+   
 设置旋转速度程序块
 """""""""""""""""""
 
