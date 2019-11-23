@@ -41,45 +41,53 @@ Ovobot Bit Scratch指南
 """""""""""""""""""
 
 .. image:: images/rotate_turn.png
+   :width: 154
 
 设置机器人向左或者向右的旋转速度，速度范围为0~255。
 
 例子：
 
 .. image:: images/rotate_turn_example.png
+   :width: 154
 
 设置旋转速度及时间程序块
 """""""""""""""""""""""""
 
 .. image:: images/rotate_turn_duration.png
+   :width: 260.5
 
 设置机器人向左或者向右的旋转速度以及持续时间，速度范围为0~255。
 
 例子：
 
 .. image:: images/rotate_turn_duration_example.png
+   :width: 260.5
 
 停止运动程序块
 """""""""""""""
 
 .. image:: images/stop_move.png
+   :width: 57
 
 设置左右两个电机的运动速度为0。
 
 例子：
 
-.. image:: images/stop_move_example.png
+.. image:: images/rotate_turn_example.png
+   :width: 154
 
 驱动电机程序块
 """""""""""""""
 
 .. image:: images/rawMotor_left_right.png
+   :width: 190
 
 分别驱动Bit的左右两个轮子的转速。
 
 例子：
 
 .. image:: images/rawMotor_left_right_example.png
+   :width: 197.5
 
 外观
 -----
@@ -88,17 +96,20 @@ RGB LED灯颜色设置程序块
 """"""""""""""""""""""""
 
 .. image:: images/set_led_color.png
+   :width: 259
 
 可以分别设置左右两侧LED灯的颜色。
 
 例子：
 
 .. image:: images/set_led_color_example.png
+   :width: 270
 
 显示字符程序块
 """""""""""""""
 
 .. image:: images/show_string.png
+   :width: 169.5
 
 可以控制Bit机器人点阵屏显示相应的字符。
 
@@ -106,39 +117,46 @@ RGB LED灯颜色设置程序块
 """""""""""""""
 
 .. image:: images/show_image.png
+   :width: 109
 
 可以控制Bit机器人点阵屏显示相应的图案。
 
 例子：
 
 .. image:: images/show_image_example.png
+   :width: 109
 
 熄灭屏幕程序块
 """""""""""""""
 
 .. image:: images/hide_all_matrix.png
+   :width: 57
 
 熄灭Bit机器人LED点阵屏。
 
 例子：
 
 .. image:: images/hide_all_matrix_example.png
+   :width: 109
 
 点亮坐标程序块
 """""""""""""""
 
 .. image:: images/light_axis.png
+   :width: 236
 
 点亮Bit机器人LED点阵屏上某个坐标的LED，x、y的数值范围为0~4，零点在点阵屏的左上角，水平向右为x轴，竖直向下为y轴。
 
 例子：
 
 .. image:: images/light_axis_example.png
+   :width: 247
 
 设置坐标程序块
 """""""""""""""
 
 .. image:: images/show_on_the_axis.png
+   :width: 216.5
 
 分别设置x或y轴的高度。
 
