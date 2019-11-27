@@ -1,0 +1,74 @@
+[1121/090302:INFO:exception_record.cc(518)] [QB]Process ID: 16144 Type: 4
+[1121/090307:INFO:exception_record.cc(518)] [QB]Process ID: 23456 Type: 4
+[1121/120227:INFO:exception_record.cc(518)] [QB]Process ID: 21232 Type: 2
+[1121/120230:INFO:http_cache_transaction.cc(72)] IgnoreZeroCacheError: 0
+[1121/120556:FATAL:memory.cc(19)] Out of memory. size=4726784
+Backtrace:
+	CLInfo [0x0FB48707+224151]
+	cef_time_to_timet [0x0FB10AB1+695729]
+	TerminateProcessWithoutDump [0x11AA1B51+9231921]
+	GetHandleVerifier [0x10EEA14D+20577341]
+	GetHandleVerifier [0x10EE9DC7+20576439]
+	TerminateProcessWithoutDump [0x11D48E1A+12013818]
+	TerminateProcessWithoutDump [0x11D47A5B+12008763]
+	TerminateProcessWithoutDump [0x11D477C8+12008104]
+	TerminateProcessWithoutDump [0x11D49A6F+12016975]
+	GetHandleVerifier [0x10E64D64+20031572]
+	GetHandleVerifier [0x10E64C4E+20031294]
+	GetHandleVerifier [0x10E64C7F+20031343]
+	CLInfo [0x0FB261D2+83554]
+	BaseThreadInitThunk [0x76DE0419+25]
+	RtlGetAppContainerNamedObjectPath [0x77E3662D+237]
+	RtlGetAppContainerNamedObjectPath [0x77E365FD+189]
+
+[1121/120600:INFO:exception_record.cc(518)] [QB]Process ID: 2264 Type: 2
+[1121/120646:FATAL:memory.cc(19)] Out of memory. size=4599808
+Backtrace:
+	CLInfo [0x0FB48707+224151]
+	cef_time_to_timet [0x0FB10AB1+695729]
+	TerminateProcessWithoutDump [0x11AA1B51+9231921]
+	GetHandleVerifier [0x10EEA14D+20577341]
+	GetHandleVerifier [0x10EE9DC7+20576439]
+	GetHandleVerifier [0x1002ED27+5130263]
+	GetHandleVerifier [0x0FED4E02+3713266]
+	GetHandleVerifier [0x0FE440CC+3120060]
+	GetHandleVerifier [0x0FFE7F3B+4839979]
+	GetHandleVerifier [0x0FF62612+4292866]
+	GetHandleVerifier [0x0FF6215E+4291662]
+	GetHandleVerifier [0x0FF62371+4292193]
+	GetHandleVerifier [0x0FF6292F+4293663]
+	GetHandleVerifier [0x0FEDD265+3747157]
+	GetHandleVerifier [0x0FE985BC+3465388]
+	GetHandleVerifier [0x0FE98C37+3467047]
+	GetHandleVerifier [0x0FE635E8+3248344]
+	GetHandleVerifier [0x0FE9F2A4+3493268]
+	GetHandleVerifier [0x0FE68195+3267717]
+	GetHandleVerifier [0x0FE663DE+3260110]
+	GetHandleVerifier [0x0FE78335+3333669]
+	GetHandleVerifier [0x0FE4E6D8+3162568]
+	GetHandleVerifier [0x0FE50759+3170889]
+	GetHandleVerifier [0x0FE4CCB8+3155880]
+	GetHandleVerifier [0x0FE59B37+3208743]
+	TerminateProcessWithoutDump [0x11D48F8A+12014186]
+	TerminateProcessWithoutDump [0x11D47A5B+12008763]
+	TerminateProcessWithoutDump [0x11D477C8+12008104]
+	TerminateProcessWithoutDump [0x11D49A6F+12016975]
+	GetHandleVerifier [0x10E64D64+20031572]
+	GetHandleVerifier [0x10E64C4E+20031294]
+	GetHandleVerifier [0x10E64C7F+20031343]
+	CLInfo [0x0FB261D2+83554]
+	BaseThreadInitThunk [0x76DE0419+25]
+	RtlGetAppContainerNamedObjectPath [0x77E3662D+237]
+	RtlGetAppContainerNamedObjectPath [0x77E365FD+189]
+
+[1121/120650:INFO:exception_record.cc(518)] [QB]Process ID: 19420 Type: 2
+[1121/142032:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1121/142037:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1121/142042:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1121/142047:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1121/142052:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1121/142057:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1121/142102:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1121/142107:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1121/142107:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1122/090119:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.

@@ -23,5 +23,8 @@ Ovobot（奥瓦机器人）是一家集软硬件研发，课程体系设计，�
    :maxdepth: 2
    :caption: Xtron：
 
-   Xtron/introduction
+   Xtron/introduction  
+   Xtron/Xtron_Arcade/index
+   Xtron/Xtron_Python/index
+   Xtron/Xtron_Scratch/index
 
