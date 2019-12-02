@@ -62,6 +62,7 @@ Ovobot Bit MicroPython指南
 
 .. py:function:: setledGroupColor(clr,clr)
 
+
     可以分别设置左右两侧LED灯的颜色。
 
     :param int clr: 设置左侧LED灯的颜色，可以为0-8，0：红色，1：橙色，2：黄色，3：绿色，4：蓝色，5：靛蓝色，6：紫色，7：白色，8：黑色。
@@ -217,40 +218,6 @@ Ovobot Bit MicroPython指南
 
     :param int s: 控制机器人停止运动指定的时间（秒）。
 
-.. py:function:: for count in range(No):
-  pass
-
-    重复执行其内部程序N次，N为圆角矩形框中的数值。
-
-    :param int No: 控制机器人重复执行其内部程序,输入的数字即执行次数。
-
-.. py:function:: while True:
-  pass
-
-    重复执行程序块内部包含的程序。
-
-.. py:function:: if False:
-  pass
-
-    当六边形框内的条件满足时执行程序块内部的程序。
-
-.. py:function:: if False:
-  pass
-  else:
-  pass
-
-    当六边形框内的条件满足时执行那么内部的程序，不满足时执行否则内部的程序。
-
-.. py:function:: while not False:
-  pass
-
-    等待直到条件为真时才继续执行接下来的程序块。
-
-.. py:function:: while not False:
-  pass
-
-    重复执行其内部的程序，直到六边形框内的条件满足，才执行程序块下方的程序。
-
 侦测
 -----
 
@@ -352,97 +319,9 @@ Ovobot Bit MicroPython指南
 运算
 -----
 
-.. py:function:: No + No
-.. py:function:: No - No
-.. py:function:: No * No
-.. py:function:: No / No
 
-    对输入1和输入2的数字分别进行加减乘除的运算。
 
-    :param int No: 在1和2的输入需要运算的数字，对其进行加减乘除。
 
-.. py:function:: random.randint(No, No)
-
-    在输入1和输入2之间取一个随机的数值。
-
-    :param int No: 在1和2的输入需要运算的数字，在它们之间取一个随机的数值。
-
-.. py:function:: No > No
-.. py:function:: No < No
-.. py:function:: No = No
-
-    分别为判断左面圆角矩形框内的数值是否大于、小于或等于右面的数值。
-
-    :param int No: 在左面圆角矩形框内和左面圆角矩形框内分别输入需要比较大小的数字，对其进行比较，判断出结果。
-
-.. py:function:: str and str
-
-    当两个六边形框内的条件都满足时，都返回真。
-
-    :param int str: 字符串，可以是文字、字母、数字。
-
-.. py:function:: str or str
-
-    当两个六边形框内的任一条件满足时，都返回真。
-
-    :param int str: 字符串，可以是文字、字母、数字。
-
-.. py:function:: not True:
-
-    当六边形框内的条件不满足时反馈为真。
-
-.. py:function:: []
-
-    数组程序块。
-
-.. py:function:: [No, No2, No]
-
-    数组数字程序块。
-
-    :param int No: 数组数字程序块，可添加不同的数组，1、2、3……
-
-.. py:function:: 'str ' + 'str'
-
-    连接程序块。
-
-    :param int str: 字符串，可以是文字、字母、数字。
-
-.. py:function:: 'str'[No]
-
-    设置连接物的字符程序块。
-
-    :param int str: 字符串，可以是文字、字母、数字。
-    :param int No: 代表输入数字的第N-1个字符。
-
-.. py:function:: len('str')
-
-    设置链接物字符。
-
-    :param int str: 字符串，可以是文字、字母、数字。
-
-.. py:function:: 'str'.find('str') > -1
-
-    判断包含程序块。
-
-    :param int str: 字符串，可以是文字、字母、数字。
-
-.. py:function:: No % No
-
-    第一个圆角矩形框内的数值除以第二个圆角矩形框内的数值的余数。
-
-    :param int No: 用输入的第一个数字除以输入的第二个数字，对数值取余。
-
-.. py:function:: round(No)
-
-    取圆角矩形框内数据的整数，小数满0.5，整数位加1。
-
-    :param int No: 取输入数字的整数，小数满0.5，整数位加1。
-
-.. py:function:: math.fabs(No)
-
-    把一个数变成非负数，正数的绝对值是它本身，负数的绝对值是它的相反数，0的绝对值是0。
-
-    :param int No: 取输入数字的绝对值，把一个数变成非负数，正数的绝对值是它本身，负数的绝对值是它的相反数，0的绝对值是0。  
 
 变量
 -----
