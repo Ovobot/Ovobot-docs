@@ -1,2 +1,2 @@
-Xtron Python 课程
+Xtron Python 指南
 =====================

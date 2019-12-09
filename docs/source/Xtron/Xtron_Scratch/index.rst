@@ -1,2 +1,2 @@
-Xtron Scratch 课程
+Xtron Scratch 指南
 =======================

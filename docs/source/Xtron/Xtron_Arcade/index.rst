@@ -1,4 +1,4 @@
-Xtron_Arcade 课程
+Xtron_Arcade 指南
 =======================
 
 .. toctree::
