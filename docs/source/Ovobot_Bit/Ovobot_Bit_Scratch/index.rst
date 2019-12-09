@@ -237,7 +237,7 @@ C调中，C、D、E、F、G、A、B分别对应简谱中的1、2、3、4、5、6
 例子：
 
 .. image:: images/play_tone_example.png
-   :width: 225
+   :width: 188
 
 当绿旗被点击时，播放C音符持续一个节拍，然后播放E音符持续一个节拍。
 
