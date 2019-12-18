@@ -21,10 +21,17 @@ Ovobot（奥瓦机器人）是一家集软硬件研发，课程体系设计，�
 
 .. toctree::
    :maxdepth: 2
-   :caption: Xtron：
+   :caption: Xtron可编程三合一掌机：
 
    Xtron/introduction  
    Xtron/Xtron_Arcade/index
    Xtron/Xtron_Python/index
    Xtron/Xtron_Scratch/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: BitCon可编程手柄：
+
+   BitCon/introduction  
+   BitCon/BitCon_Scratch/index
 

@@ -5,13 +5,13 @@
 Arcade介绍
 ----------------
 
-Makecode Arcade平台主打游戏编程，你可以用简单的积木块来搭建自己的游戏，积木块的功能可以参考 `Arcade积木栏详解`_.
+1. Makecode Arcade平台主打游戏编程，你可以用简单的积木块来搭建自己的游戏，积木块的功能可以参考 `Arcade积木栏详解`_.
 
 .. _Arcade积木栏详解: https://ovobot-docs.readthedocs.io/zh_CN/latest/Xtron/Xtron_Arcade/Xtron_Arcade_Block_Introduction/index.html
 
-平台左侧是一个模拟器，你编写的游戏实时效果会在模拟器上展示，你可以实时的调试和优化自己的游戏。
+2. 平台左侧是一个模拟器，你编写的游戏实时效果会在模拟器上展示，你可以实时的调试和优化自己的游戏。
 
-平台支持积木块转JS代码，在Arcade平台上，你可以通过积木块编程入门，再进阶到JS编程，逐渐锻炼你的逻辑思维以及增进你的编程技巧。
+3. 平台支持积木块转JS代码，在Arcade平台上，你可以通过积木块编程入门，再进阶到JS编程，逐渐锻炼你的逻辑思维以及增进你的编程技巧。
 
 Makecode平台编程地址: https://arcade.makecode.com
 
@@ -26,19 +26,15 @@ Makecode平台编程地址: https://arcade.makecode.com
 
     .. image:: images/language.gif
 
-
     滚动鼠标，找到【积木块类游戏】, 点击【Falling Duck】打开示例。
-  
+
     .. image:: images/fastuse2.gif
 
-
     平台中间的代码区，你可以看到这个游戏对应的积木块的代码，点击切换成【{}JavaScript】，你可以看到对应的JS代码。
-
+    
     .. image:: images/fastuse3.gif
 
-
     在左边的模拟器上，你可以体验一下游戏的效果。点击任意按键开始游戏，每次按键按下之后，duck会往上跳动一次，顺利穿过一个树桩得分+1。
-
 
     .. image:: images/fastuse4.gif
 
@@ -49,9 +45,9 @@ Makecode平台编程地址: https://arcade.makecode.com
     .. image:: images/fastuse5.jpg
 
     点击左下角的【下载】按键，选择【F4】。
-    
+
     .. image:: images/fastuse6.gif
-    
+
     找到刚才下载的.uf2 文件，右击鼠标，选择发送到Xtron.
 
     .. image:: images/fastuse7.gif
@@ -59,7 +55,7 @@ Makecode平台编程地址: https://arcade.makecode.com
     现在我们可以在Xtron上体验这个游戏了。
 
 3. 现在我们尝试新建一个项目。
-   
+
     回到主页，点击【新建项目】，为项目起一个名字。
 
     .. image:: images/fastuse8.gif
