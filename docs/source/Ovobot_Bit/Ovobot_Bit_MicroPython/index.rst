@@ -16,7 +16,9 @@ Ovobot Bit MicroPython指南
 运动
 -----
 
-.. py:function:: moveAtSpeed(dir, speed)
+.. code-block:: python
+
+    .. py:function:: moveAtSpeed(dir, speed)
 
     设置Bit的前进或后退的速度，数值范围为0~255。
 
