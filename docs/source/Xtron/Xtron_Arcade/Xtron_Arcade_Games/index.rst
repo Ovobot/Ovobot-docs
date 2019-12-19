@@ -7,5 +7,3 @@ Acade 游戏课程
 
    pizza
    mazy
-   babyshark
-   bird
