@@ -28,62 +28,62 @@
 判断摄像头检测程序块
 """"""""""""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/camera_detection.png
+   :width: 250
 
 检测到颜色识别程序块
 """"""""""""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/color_recognition_detected.png
+   :width: 309
 
 检测到色块颜色程序块
 """"""""""""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/patch_testing.png
+   :width: 291.5
 
 获取算法程序块
 """""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/acquisition_algorithm.png
+   :width: 342
 
 获取颜色识别程序块
 """""""""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/get_color_recognition.png
+   :width: 279.5
 
 获得算法形状卡片程序块
 """""""""""""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/get_shape_card.png
+   :width: 286
 
 获得算法交通卡片程序块
 """"""""""""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/transportation_card.png
+   :width: 298.5
 
 获得算法数字卡片程序块
 """"""""""""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/digital_card.png
+   :width: 281.5
 
 获得算法颜色识别程序块
 """"""""""""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/color_identification.png
+   :width: 312
 
 LED识别颜色程序块
 """"""""""""""""""
 
-.. image:: images/rest.png
-   :width: 270
+.. image:: images/recognize_color.png
+   :width: 402.5
 
 设置算法性能程序块
 """"""""""""""""""

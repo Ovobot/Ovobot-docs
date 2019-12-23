@@ -299,7 +299,7 @@ C调中，C、D、E、F、G、A、B分别对应简谱中的1、2、3、4、5、6
 """""""""""""""""""
 
 .. image:: images/wireless_communication.png
-   :width: 78
+   :width: 79.5
 
 控制打开、接收、复位无线通讯。
 
@@ -307,7 +307,7 @@ C调中，C、D、E、F、G、A、B分别对应简谱中的1、2、3、4、5、6
 """"""""""""""""""
 
 .. image:: images/send_wireless_message.png
-   :width: 122
+   :width: 126
 
 发送无线消息。
 
@@ -315,7 +315,7 @@ C调中，C、D、E、F、G、A、B分别对应简谱中的1、2、3、4、5、6
 """"""""""""""""""""""
 
 .. image:: images/send_containing_bytes.png
-   :width: 264
+   :width: 264.5
 
 发送无线消息列表。
 
@@ -323,7 +323,7 @@ C调中，C、D、E、F、G、A、B分别对应简谱中的1、2、3、4、5、6
 """"""""""""""""""
 
 .. image:: images/receive_wireless_message.png
-   :width: 83
+   :width: 86
 
 接收无线消息。
 
@@ -331,7 +331,7 @@ C调中，C、D、E、F、G、A、B分别对应简谱中的1、2、3、4、5、6
 """"""""""""""""""""""
 
 .. image:: images/receive_wireless_containing.png
-   :width: 106
+   :width: 108
    
 接收无线消息列表。
 
@@ -339,7 +339,7 @@ C调中，C、D、E、F、G、A、B分别对应简谱中的1、2、3、4、5、6
 """"""""""""""""""""""
 
 .. image:: images/set_wireless_channel.png
-   :width: 142
+   :width: 146.5
    
 设置无线讯息频道。
 
