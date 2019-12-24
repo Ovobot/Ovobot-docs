@@ -6,7 +6,6 @@ Ovobot Bit Scratch指南
 .. toctree::
    :maxdepth: 1
 
-   tutorial/index
    basic_block
    block_MU
    block_extend_basic
