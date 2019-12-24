@@ -45,7 +45,7 @@ Xtron Scratch 积木块指南
  6.你可以从基础的积木块开始学习，积木块的介绍参考：
 
     .. toctree::
-        :maxdepth: 2
+        :maxdepth: 1
 
         block_basic
         block_robot
