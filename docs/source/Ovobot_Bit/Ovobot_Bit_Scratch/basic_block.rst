@@ -4,447 +4,439 @@
 运动
 -----
 
-设置移动速度程序块
-"""""""""""""""""""
+ 1. 设置移动速度程序块
 
-.. image:: images/move.png
-   :width: 154
+        .. image:: images/move.png
+            :width: 154
 
-设置Bit机器人的前进或后退的速度，数值范围为0~255。
+    设置Bit机器人的前进或后退的速度，数值范围为0~255。
 
-例子：
+    例子：
 
-.. image:: images/move_example.png
-   :width: 154
+    当绿旗被点击时，Bit机器人以100的速度匀速前进，等待1秒后停止运动。
 
-当绿旗被点击时，Bit机器人以100的速度匀速前进，等待1秒后停止运动。
+    .. image:: images/move_example.png
+        :width: 154
 
-设置移动速度及时间程序块
-""""""""""""""""""""""""
+    .. image:: images/null.png
 
-.. image:: images/move_duration.png
-   :width: 260.5
+ 2. 设置移动速度及时间程序块
 
-通过设定Bit机器人的运动方向、运动速度和持续时间来让机器人运动，速度范围为0~255。
+        .. image:: images/move_duration.png
+            :width: 260.5
 
-例子：
+    通过设定Bit机器人的运动方向、运动速度和持续时间来让机器人运动，速度范围为0~255。
 
-.. image:: images/move_duration_example.png
-   :width: 260.5
-   
-当绿旗被点击时，Bit机器人以100的速度匀速前进，持续时间为1秒。
+    例子：
 
-设置旋转速度程序块
-"""""""""""""""""""
+    当绿旗被点击时，Bit机器人以100的速度匀速前进，持续时间为1秒。
 
-.. image:: images/rotate_turn.png
-   :width: 154
+    .. image:: images/move_duration_example.png
+        :width: 260.5
 
-控制Bit机器人原地旋转，设置向左或者向右的旋转速度，速度范围为0~255。
+    .. image:: images/null.png
 
-例子：
+ 3. 设置旋转速度程序块
 
-.. image:: images/rotate_turn_example.png
-   :width: 154
+        .. image:: images/rotate_turn.png
+            :width: 154
 
-当绿旗被点击时，Bit机器人以100的速度向左旋转，等待1秒后停止运动。
+    控制Bit机器人原地旋转，设置向左或者向右的旋转速度，速度范围为0~255。
 
-设置旋转速度及时间程序块
-"""""""""""""""""""""""""
+    例子：
 
-.. image:: images/rotate_turn_duration.png
-   :width: 260.5
+    当绿旗被点击时，Bit机器人以100的速度向左旋转，等待1秒后停止运动。
 
-控制Bit机器人原地旋转，设置向左或者向右的旋转速度以及持续时间，速度范围为0~255。
+    .. image:: images/rotate_turn_example.png
+        :width: 154
 
-例子：
+    .. image:: images/null.png
 
-.. image:: images/rotate_turn_duration_example.png
-   :width: 260.5
+ 4. 设置旋转速度及时间程序块
 
-当绿旗被点击时，Bit机器人以100的速度向左旋转，持续时间为1秒。
+        .. image:: images/rotate_turn_duration.png
+            :width: 260.5
 
-停止运动程序块
-"""""""""""""""
+    控制Bit机器人原地旋转，设置向左或者向右的旋转速度以及持续时间，速度范围为0~255。
 
-.. image:: images/stop_move.png
-   :width: 57
+    例子：
 
-设置Bit机器人左右两个电机的运动速度为0。
+    当绿旗被点击时，Bit机器人以100的速度向左旋转，持续时间为1秒。
 
-例子：
+    .. image:: images/rotate_turn_duration_example.png
+        :width: 260.5
 
-.. image:: images/rotate_turn_example.png
-   :width: 154
+    .. image:: images/null.png
 
-当绿旗被点击时，Bit机器人以100的速度向左旋转，等待1秒后停止运动。
+ 5. 停止运动程序块
 
-驱动电机程序块
-"""""""""""""""
+       .. image:: images/stop_move.png
+            :width: 57
+    
+    设置Bit机器人左右两个电机的运动速度为0。
 
-.. image:: images/rawMotor_left_right.png
-   :width: 190
+    例子：
 
-分别驱动Bit机器人的左右两个轮子的转速，通过设置左右轮子的不同转速，使机器人以设置的角度边旋转边前进。
+    当绿旗被点击时，Bit机器人以100的速度向左旋转，等待1秒后停止运动。
 
-如通过电脑键盘的方向键控制Bit前进、后退、左转和右转，空格键控制Bit停止。
+    .. image:: images/rotate_turn_example.png
+        :width: 154
 
-.. image:: images/rotate_example.png
-   :width: 410
+    .. image:: images/null.png       
 
-例子：
+ 6. 驱动电机程序块
 
-.. image:: images/rawMotor_left_right_example.png
-   :width: 193.5
+        .. image:: images/rawMotor_left_right.png
+            :width: 190
 
-当绿旗被点击时，Bit机器人的驱动电机以左轮-255、右轮100的速度行走，等待1秒后，再以左轮100右轮-255的速度前进后停止运动。
-（即先左拐再右拐）
+        .. image:: images/rotate_example.png
+            :width: 410
+
+    分别驱动Bit机器人的左右两个轮子的转速，通过设置左右轮子的不同转速，使机器人以设置的角度边旋转边前进。
+
+    如通过电脑键盘的方向键控制Bit前进、后退、左转和右转，空格键控制Bit停止。
+
+    例子：
+
+    当绿旗被点击时，Bit机器人的驱动电机以左轮-255、右轮100的速度行走，等待1秒后，再以左轮100右轮-255的速度前进后停止运动。（即先左拐再右拐）
+
+    .. image:: images/rawMotor_left_right_example.png
+        :width: 193.5
+
 
 外观
 -----
 
-RGB LED灯颜色设置程序块
-""""""""""""""""""""""""
+ 1. RGB LED灯颜色设置程序块
 
-.. image:: images/set_led_color.png
-   :width: 259
+        .. image:: images/set_led_color.png
+            :width: 259
 
-可以分别设置左右两侧LED灯的颜色。
+    可以分别设置左右两侧LED灯的颜色。
+   
+    * 下图主板上的标记位置为RGB LED灯，即Bit的发光模块，分别为左侧LED和右侧LED。
+    * RGB LED灯是一种以三原色共同交集成像的发光装置，通过设置不同的R（红色）、G（绿色）、B（蓝色）亮度来达到显示不同颜色的效果。
+    * LED灯有工作电压低、工作电流小、可靠性高和寿命长等特点，被广泛应用于汽车和城市照明等。
 
-下图主板上的标记位置为RGB LED灯，即Bit的发光模块，分别为左侧LED和右侧LED。
-RGB LED灯是一种以三原色共同交集成像的发光装置，通过设置不同的R（红色）、G（绿色）、B（蓝色）亮度来达到显示不同颜色的效果。
-LED灯有工作电压低、工作电流小、可靠性高和寿命长等特点，被广泛应用于汽车和城市照明等。
+        .. image:: images/RGB_LED.png
+            :width: 200
 
-.. image:: images/RGB_LED.png
-   :width: 200
+    例子：
 
-例子：
+    当绿旗被点击时，Bit机器人的彩色灯左侧为橙色，右侧为蓝色，等待1秒后，彩色灯左侧变为绿色，右侧变为紫色，再等待1秒后变回原来的颜色，如此重复执行这一指令。
+  
+    .. image:: images/set_led_color_example.png
+        :width: 270
 
-.. image:: images/set_led_color_example.png
-   :width: 270
+    .. image:: images/null.png       
 
-当绿旗被点击时，Bit机器人的彩色灯左侧为橙色，右侧为蓝色，等待1秒后，彩色灯左侧变为绿色，右侧变为紫色，再等待1秒后变回原来的颜色，
-如此重复执行这一指令。
+ 2. 显示字符程序块
 
-显示字符程序块
-"""""""""""""""
+        .. image:: images/show_string.png
+            :width: 169.5
 
-.. image:: images/show_string.png
-   :width: 169.5
+    可以控制Bit机器人点阵屏显示相应的字符，选择“等待”即执行完这条指令才会执行下一条指令，“继续”即执行这条指令同时执行下一条指令。
 
-可以控制Bit机器人点阵屏显示相应的字符，选择“等待”即执行完这条指令才会执行下一条指令，
-“继续”即执行这条指令同时执行下一条指令。
+    * 下图中标记位置为Bit机器人的LED点阵屏幕，可以用来显示图案、数字、动画或者一段英文字符。
 
-下图中标记位置为Bit机器人的LED点阵屏幕，可以用来显示图案、数字、动画或者一段英文字符。
-LED点阵屏由LED(发光二极管）组成，以灯珠亮灭来显示信息，是各部分组件都模块化的显示器件，通常由显示模块、控制系统及电源系统组成。
+    * LED点阵屏由LED(发光二极管）组成，以灯珠亮灭来显示信息，是各部分组件都模块化的显示器件，通常由显示模块、控制系统及电源系统组成。
 
-.. image:: images/Lattice_screen.png
-   :width: 200
+    .. image:: images/Lattice_screen.png
+        :width: 200
 
-显示图案程序块
-"""""""""""""""
+    .. image:: images/null.png
 
-.. image:: images/show_image.png
-   :width: 109
+ 3. 显示图案程序块
 
-点击显示图案程序块的下拉列表，出现图案绘制面板，绘制相应的图案。绘制图案时，可以一键熄灭或点亮所有LED，点击灰色小方格点亮相应的LED。
+        .. image:: images/show_image.png
+            :width: 109
 
-.. image:: images/LED.png
-   :width: 150
+    点击显示图案程序块的下拉列表，出现图案绘制面板，绘制相应的图案。绘制图案时，可以一键熄灭或点亮所有LED，点击灰色小方格点亮相应的LED。
 
-例子：
+    .. image:: images/LED.png
+        :width: 150
 
-.. image:: images/show_image_example.png
-   :width: 109
+    例子：
 
-当绿旗被点击时，Bit机器人的LED灯显示“❤”的图案，等待0.5秒后，变为显示“2”的图案，同样显示0.5秒。
+    当绿旗被点击时，Bit机器人的LED灯显示“❤”的图案，等待0.5秒后，变为显示“2”的图案，同样显示0.5秒。
 
-熄灭屏幕程序块
-"""""""""""""""
+    .. image:: images/show_image_example.png
+        :width: 109
 
-.. image:: images/hide_all_matrix.png
-   :width: 57
+    .. image:: images/null.png
 
-熄灭Bit机器人LED点阵屏。
+ 4. 熄灭屏幕程序块
 
-例子：
+        .. image:: images/hide_all_matrix.png
+            :width: 57
 
-.. image:: images/hide_all_matrix_example.png
-   :width: 109
+    熄灭Bit机器人LED点阵屏。
 
-当绿旗被点击时，Bit机器人的LED灯显示“❤”的图案，等待2秒后，熄灭屏幕。
+    例子：
 
-点亮坐标程序块
-"""""""""""""""
+    当绿旗被点击时，Bit机器人的LED灯显示“❤”的图案，等待2秒后，熄灭屏幕。
 
-.. image:: images/light_axis.png
-   :width: 236
+    .. image:: images/hide_all_matrix_example.png
+        :width: 109
 
-点亮Bit机器人LED点阵屏上某个坐标的LED，x、y的数值范围为0~4，零点在点阵屏的左上角，水平向右为x轴，竖直向下为y轴。
+ 5. 点亮坐标程序块
 
-.. image:: images/light_axis_example2.png
-   :width: 200
+        .. image:: images/light_axis.png
+            :width: 236
 
-例子：
+    点亮Bit机器人LED点阵屏上某个坐标的LED，x、y的数值范围为0~4，零点在点阵屏的左上角，水平向右为x轴，竖直向下为y轴。
 
-.. image:: images/light_axis_example.png
-   :width: 247
+        .. image:: images/light_axis_example2.png
+            :width: 200
 
-当绿旗被点击时，点亮Bit机器人LED点阵屏上坐标为x：2、y：2的LED，等待1秒后，熄灭LED，再等待1秒后点亮此坐标，
-如此重复执行这一指令。
+    例子：
 
-设置坐标程序块
-"""""""""""""""
+    当绿旗被点击时，点亮Bit机器人LED点阵屏上坐标为x：2、y：2的LED，等待1秒后，熄灭LED，再等待1秒后点亮此坐标，如此重复执行这一指令。
 
-.. image:: images/show_on_the_axis.png
-   :width: 216.5
+    .. image:: images/light_axis_example.png
+        :width: 247
 
-分别设置x或y轴的高度。
+ 6. 设置坐标程序块
+
+        .. image:: images/show_on_the_axis.png
+            :width: 216.5
+
+    分别设置x或y轴的高度。
 
 声音
 -----
 
-播放音符程序块
-"""""""""""""""
+ 1. 播放音符程序块
 
-.. image:: images/play_tone.png
-   :width: 188
+        .. image:: images/play_tone.png
+            :width: 188
 
-下图主板上的标记位置为蜂鸣器，即Bit的发声模块。
-蜂鸣器是一种一体化结构的电子讯响器，采用直流电压供电，广泛应用于计算机、打印机、复印机、报警器、电子玩具、汽车电子设备、电话机和定时器等电子产品中作发声器件。
+    * 下图主板上的标记位置为蜂鸣器，即Bit的发声模块。
+    * 蜂鸣器是一种一体化结构的电子讯响器，采用直流电压供电，广泛应用于计算机、打印机、复印机、报警器、电子玩具、汽车电子设备、电话机和定时器等电子产品中作发声器件。
 
-.. image:: images/buzzer.png
-   :width: 200
+        .. image:: images/buzzer.png
+            :width: 200
 
-简谱和音名的对应关系：我们在生活中，一般接触到的都是1234567这样的简谱，但Ovoblock的程序块是使用五线谱的音名来显示的，在C调的乐谱中，它们之间的对应关系如下。
+    简谱和音名的对应关系：我们在生活中，一般接触到的都是1234567这样的简谱，但Ovoblock的程序块是使用五线谱的音名来显示的，在C调的乐谱中，它们之间的对应关系如下。
 
-.. image:: images/music.png
+    .. image:: images/music.png
 
-C调中，C、D、E、F、G、A、B分别对应简谱中的1、2、3、4、5、6、7，一个唱名为四分音符持续1个节拍，下方有一个横杠的是八分音符持续1/2节拍，音符后有一个横杠的为二分音符持续2个节拍，同学们按照音符和节拍数编写整段音乐。
+    C调中，C、D、E、F、G、A、B分别对应简谱中的1、2、3、4、5、6、7，一个唱名为四分音符持续1个节拍，下方有一个横杠的是八分音符持续1/2节拍，音符后有一个横杠的为二分音符持续2个节拍，同学们按照音符和节拍数编写整段音乐。
 
-比如下面的上学歌，不划线是四分音符，在这首曲子中是一个节拍，一道下划线的节拍相当于八分音，在这首曲子中是1/2拍。
-一些音符后面会加-，表示音符持续，例如7 - 代表 7 这个音占了两个节拍，7- - 则表示3个节拍。
+    比如下面的上学歌，不划线是四分音符，在这首曲子中是一个节拍，一道下划线的节拍相当于八分音，在这首曲子中是1/2拍。
+    
+    一些音符后面会加-，表示音符持续，例如7 - 代表 7 这个音占了两个节拍，7- - 则表示3个节拍。
 
-.. image:: images/song.png
+    .. image:: images/song.png
 
-例子：
+    例子：
 
-.. image:: images/play_tone_example.png
-   :width: 188
+    当绿旗被点击时，播放C音符持续一个节拍，然后播放E音符持续一个节拍。
 
-当绿旗被点击时，播放C音符持续一个节拍，然后播放E音符持续一个节拍。
+    .. image:: images/play_tone_example.png
+        :width: 188
 
-暂停播放节拍程序块
-"""""""""""""""""""
 
-.. image:: images/rest.png
-   :width: 152
+ 2. 暂停播放节拍程序块
 
-设置暂停播放的节拍数。
+        .. image:: images/rest.png
+            :width: 152
+
+    设置暂停播放的节拍数。
 
 引脚
 -----
 
-引脚被接触程序块
-"""""""""""""""""
+1. 引脚被接触程序块
 
-.. image:: images/pin.png
-   :width: 143
+        .. image:: images/pin.png
+            :width: 143
 
-判断引脚是否被接触。
+    判断引脚是否被接触。
 
-读取引脚模拟值程序块
-"""""""""""""""""""""
+ 2. 读取引脚模拟值程序块
 
-.. image:: images/pin_analog_quantity.png
-   :width: 154.5
+        .. image:: images/pin_analog_quantity.png
+            :width: 154.5
 
-读取设置引脚的模拟值。
+    读取设置引脚的模拟值。
 
-设置引脚模拟值程序块
-""""""""""""""""""""
+ 3. 设置引脚模拟值程序块
 
-.. image:: images/set_analog_quantity.png
-   :width: 193.5
+        .. image:: images/set_analog_quantity.png
+            :width: 193.5
 
-设置选定引脚的模拟值。
+    设置选定引脚的模拟值。
 
-读取引脚数字值程序块
-""""""""""""""""""""
+ 4. 读取引脚数字值程序块
 
-.. image:: images/pin_with_numbber_input.png
-   :width: 154.5
+        .. image:: images/pin_with_numbber_input.png
+            :width: 154.5
 
-读取设置引脚的数字值。
+    读取设置引脚的数字值。
 
-设置引脚数字值程序块
-""""""""""""""""""""
+ 5. 设置引脚数字值程序块
 
-.. image:: images/set_digital_output.png
-   :width: 201
+        .. image:: images/set_digital_output.png
+            :width: 201
 
-设置选定引脚的数字值。
+    设置选定引脚的数字值。
 
 无线通讯
 --------
 
-控制无线通讯程序块
-"""""""""""""""""""
+ 1. 控制无线通讯程序块
 
-.. image:: images/wireless_communication.png
-   :width: 79.5
+        .. image:: images/wireless_communication.png
+            :width: 79.5
 
-控制打开、接收、复位无线通讯。
+    控制打开、接收、复位无线通讯。
 
-发送无线消息程序块
-""""""""""""""""""
+ 2. 发送无线消息程序块
 
-.. image:: images/send_wireless_message.png
-   :width: 126
+        .. image:: images/send_wireless_message.png
+            :width: 126
 
-发送无线消息。
+    发送无线消息。
 
-发送无线消息列表程序块
-""""""""""""""""""""""
+ 3. 发送无线消息列表程序块
 
-.. image:: images/send_containing_bytes.png
-   :width: 264.5
+        .. image:: images/send_containing_bytes.png
+            :width: 264.5
 
-发送无线消息列表。
+    发送无线消息列表。
 
-接收无线消息程序块
-""""""""""""""""""
+ 4. 接收无线消息程序块
 
-.. image:: images/receive_wireless_message.png
-   :width: 86
+        .. image:: images/receive_wireless_message.png
+            :width: 86
 
-接收无线消息。
+    接收无线消息。
 
-接收无线消息列表程序块
-""""""""""""""""""""""
+ 5. 接收无线消息列表程序块
 
-.. image:: images/receive_wireless_containing.png
-   :width: 108
+        .. image:: images/receive_wireless_containing.png
+            :width: 108
    
-接收无线消息列表。
+    接收无线消息列表。
 
-设置无线讯息频道程序块
-""""""""""""""""""""""
+ 6. 设置无线讯息频道程序块
 
-.. image:: images/set_wireless_channel.png
-   :width: 146.5
+        .. image:: images/set_wireless_channel.png
+            :width: 146.5
    
-设置无线讯息频道。
+    设置无线讯息频道。
 
 事件
 -----
 
-程序的起点
-"""""""""""
+ 1. 程序的起点
 
-.. image:: images/click.png
-   :width: 85
+        .. image:: images/click.png
+            :width: 85
 
-当机器人处于实时模式时，点击绿旗，执行此模块下方的程序。
+    当机器人处于实时模式时，点击绿旗，执行此模块下方的程序。
 
-.. image:: images/bit.png
-   :width: 101.5
+        .. image:: images/bit.png
+            :width: 101.5
 
-当机器人处于离线模式时，启动Ovobot Bit，执行此模块下方的程序。
+    当机器人处于离线模式时，启动Ovobot Bit，执行此模块下方的程序。
 
-例子：
+    例子：
 
-.. image:: images/click_example.png
-   :width: 188
+    当绿旗被点击时，播放C音符持续一个节拍。
 
-当绿旗被点击时，播放C音符持续一个节拍。
+    .. image:: images/click_example.png
+        :width: 188
 
-键盘按键按下事件程序块
-"""""""""""""""""""""""
 
-.. image:: images/key_pressde.png
-   :width: 120
 
-键盘按键共包含42种可编程按键，由方向键、数字键、字母键组成，当对应的按键被按下时，执行此模块下方的程序。
+ 2. 键盘按键按下事件程序块
 
-例子：
+        .. image:: images/key_pressde.png
+            :width: 120
 
-.. image:: images/key_pressde_example.png
-   :width: 190
+    键盘按键共包含42种可编程按键，由方向键、数字键、字母键组成，当对应的按键被按下时，执行此模块下方的程序。
 
-当按下键盘的空格键时，Bit机器人的左、右轮同时以100的速度前进。
+    例子：
 
-当按钮按下事件程序块
-"""""""""""""""""""""
+    当按下键盘的空格键时，Bit机器人的左、右轮同时以100的速度前进。
 
-.. image:: images/button_pressed.png
-   :width: 127.5
+    .. image:: images/key_pressde_example.png
+        :width: 190
 
-按钮指的是micro:bit的两个可编程按键，分为A和B，当对应Bit的按钮被按下时，执行此模块下方的程序。
 
-例子：
 
-.. image:: images/button_pressed_example.png
-   :width: 127.5
+ 3. 当按钮按下事件程序块
 
-广播程序块是不同角色之间通信的桥梁，一个角色可以广播一个消息，另外一个角色可以侦听这个消息。
-当按下micro:bit的A键时，一个角色广播消息“开心”，另一个角色接收到“开心”的消息时，LED点阵屏显示图案“❤”。
+        .. image:: images/button_pressed.png
+            :width: 127.5
 
-当红外遥控器按键按下程序块
-""""""""""""""""""""""""""
+    按钮指的是micro:bit的两个可编程按键，分为A和B，当对应Bit的按钮被按下时，执行此模块下方的程序。
 
-.. image:: images/IR_controller.png
-   :width: 185.5
+    例子：
 
-Ovobot Bit有红外接收模块，可用于红外遥控器控制机器人的运动、图案、声音等。
-按键共包含42种可编程按键，由方向键、数字键、字母键组成，当红外遥控器对应的按钮被按下时，执行此模块下方的程序。
+    广播程序块是不同角色之间通信的桥梁，一个角色可以广播一个消息，另外一个角色可以侦听这个消息。
+    
+    当按下micro:bit的A键时，一个角色广播消息“开心”，另一个角色接收到“开心”的消息时，LED点阵屏显示图案“❤”。
 
-红外遥控器是一种利用红外发光二极管，以红外光为载体将按键端信息传递给接收端的设备。
+    .. image:: images/button_pressed_example.png
+        :width: 127.5
 
-红外遥控器：
+    
+ 4. 当红外遥控器按键按下程序块
 
-.. image:: images/IR.png
-   :width: 294
+        .. image:: images/IR_controller.png
+            :width: 185.5
 
-用离线模式，把程序下载到Bit里，通过遥控器的4个方向键，来控制Bit前进，后退，左转，右转。程序下载到Bit机器人开始执行，根据按下不同的按键执行相应的运动程序。
+    Ovobot Bit有红外接收模块，可用于红外遥控器控制机器人的运动、图案、声音等。
+    
+    按键共包含42种可编程按键，由方向键、数字键、字母键组成，当红外遥控器对应的按钮被按下时，执行此模块下方的程序。
 
-Bit程序：
+    红外遥控器是一种利用红外发光二极管，以红外光为载体将按键端信息传递给接收端的设备。
 
-.. image:: images/Bit_order.png
-   :width: 500
+    红外遥控器：
 
-例子：
+        .. image:: images/IR.png
+            :width: 294
 
-.. image:: images/IR_controller_example.png
-   :width: 260
+    用离线模式，把程序下载到Bit里，通过遥控器的4个方向键，来控制Bit前进，后退，左转，右转。程序下载到Bit机器人开始执行，根据按下不同的按键执行相应的运动程序。
+    
+    Bit程序：
 
-当按下红外遥控器的M键时，Bit机器人以255的速度后退2秒。
+    .. image:: images/Bit_order.png
+        :width: 500
 
-当响度大于程序块
-"""""""""""""""""
+    例子：
 
-.. image:: images/loudness.png
-   :width: 89
+    当按下红外遥控器的M键时，Bit机器人以255的速度后退2秒。
 
-响度返回的值是声音传感器返回的值，数值范围为0～255，当响度大于设置数值时，执行此模块下方的程序。
+    .. image:: images/IR_controller_example.png
+        :width: 260
 
-当接收到消息程序块
-""""""""""""""""""
 
-.. image:: images/receive.png
-   :width: 120.5
+ 5. 当响度大于程序块
 
-当接收到设定消息时，执行此模块下方的程序。
+        .. image:: images/loudness.png
+            :width: 89
 
-例子：
+    响度返回的值是声音传感器返回的值，数值范围为0～255，当响度大于设置数值时，执行此模块下方的程序。
 
-.. image:: images/receive_example.png
-   :width: 120.5
+ 6. 当接收到消息程序块
 
-当接收到消息1时，LED点阵屏显示图案“❤”。
+        .. image:: images/receive.png
+            :width: 120.5
 
-广播程序块
-"""""""""""
+    当接收到设定消息时，执行此模块下方的程序。
+
+    例子：
+
+    当接收到消息1时，LED点阵屏显示图案“❤”。
+
+    .. image:: images/receive_example.png
+        :width: 120.5
+
+ 7. 广播程序块
 
 .. image:: images/broadcast.png
    :width: 98.5

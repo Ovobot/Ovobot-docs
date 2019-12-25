@@ -1,4 +1,4 @@
-Xtron_Arcade 指南
+Xtron Arcade 指南
 =======================
 
 .. toctree::
