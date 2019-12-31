@@ -41,3 +41,15 @@ Xtron简介
 
     Ovoblock下载链接：https://www.ovobot.cn/zh-hans/app/#Ovoblock
 
+相关课程
+
+    我们为你准备了Xtron对应的Acade, Scratch, Python相关课程指南，你可以根据自己的需求来学习：
+
+    .. toctree::
+        :maxdepth: 1
+   
+        Xtron_Arcade/index
+        Xtron_Scratch/index
+        Xtron_Python/index
+   
+
