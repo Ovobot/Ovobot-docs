@@ -210,10 +210,10 @@
 
 
     .. image:: images/MU8.png
-        :width: 341.5
+        :width: 345
 
     .. image:: images/MU8_1.png
-        :width: 292.5
+        :width: 345
 
 13. 获取目标颜色里对应的RGB值
 

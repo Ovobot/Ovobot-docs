@@ -124,7 +124,7 @@
             摄像头十分靠近单色物体时，自动白平衡为了还原白色，将原本的红绿蓝卡片调节到完全失衡的状态，此时已经失去了原本的颜色信息，校准并锁定白平衡后，其原本颜色可以得到正确的还原。
     
         .. image:: images/camera_white_balance.png
-            :width: 355.5
+            :width: 314.5
 
 6. 设置摄像头数码变焦
 
@@ -211,10 +211,10 @@
 
 
     .. image:: images/MU8.png
-        :width: 341.5
+        :width: 345
 
     .. image:: images/MU8_1.png
-        :width: 292.5
+        :width: 345
 
 13. 获取目标颜色里对应的RGB值
 
