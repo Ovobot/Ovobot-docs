@@ -5,4 +5,18 @@ Xtron Scratch 游戏编程指南
         :maxdepth: 1
 
         mazy
-        second
+        character
+        tank_control
+        gift
+        fish
+        marbles
+        horse
+        sea
+        car
+        tanks
+        hell
+
+
+
+
+
