@@ -43,7 +43,11 @@ Xtron简介
 
 相关课程
 
-    我们为你准备了Xtron对应的Acade, Scratch, Python相关课程指南，你可以根据自己的需求来学习：
+    首先，你可以尝试组装你的Xtron, 点击 `组装参考步骤`_ .
+
+        .. _组装参考步骤: https://www.ovobot.cn/zh-hans/product/detail/xtron/assembly/
+
+    我们为你准备了Xtron对应的Acade, Scratch, Python相关课程指南，接下来，你可以根据自己的需求来学习：
 
     .. toctree::
         :maxdepth: 1
