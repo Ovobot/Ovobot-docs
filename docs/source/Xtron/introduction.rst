@@ -50,6 +50,5 @@ Xtron简介
    
         Xtron_Arcade/index
         Xtron_Scratch/index
-        Xtron_Python/index
    
 
