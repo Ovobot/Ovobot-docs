@@ -31,7 +31,7 @@ Xtron简介
 
 1. makecode图形化编程模式: Makecode平台
 
-    Makecode是由微软推出的一款支持图形化编程平台以及JS编程的平台(包括Microbit、Adafruit、Arcade等等)，Xtorn支持Arcade系列
+    Makecode是由微软推出的一款支持图形化编程平台以及JS编程的平台(包括Microbit、Adafruit、Arcade等等)，Xtron支持Arcade系列
 
     微软官方arcade编程平台：https://arcade.makecode.com
 
