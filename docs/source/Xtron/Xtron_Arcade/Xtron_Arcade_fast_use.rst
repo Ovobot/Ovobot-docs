@@ -24,7 +24,7 @@ Arcade介绍
 
 1. 我们首先体验一个经典游戏Falling Duck。
 
-    打开编程网址首页，如果你是第一次使用Arcade，显示的是默认的英文，你可以滚动到页面的最下方，点击语言，切换成你想要的语言。
+    打开编程网址首页，如果你是第一次使用Arcade，显示的是默认的英文，你可以点击右上角的设置，选择语言，切换成你想要的语言。
 
     .. image:: images/language.gif
 
@@ -32,19 +32,19 @@ Arcade介绍
 
     滚动鼠标，找到【积木块类游戏】, 点击【Falling Duck】打开示例。
 
-    .. image:: images/fastuse2.gif
+    .. image:: images/1.gif
 
     .. image:: images/null.png
 
     平台中间的代码区，你可以看到这个游戏对应的积木块的代码，点击切换成【{}JavaScript】，你可以看到对应的JS代码。
     
-    .. image:: images/fastuse3.gif
+    .. image:: images/2.gif
 
     .. image:: images/null.png
 
     在左边的模拟器上，你可以体验一下游戏的效果。点击任意按键开始游戏，每次按键按下之后，duck会往上跳动一次，顺利穿过一个树桩得分+1。
 
-    .. image:: images/fastuse4.gif
+    .. image:: images/3.gif
 
 2. 接下来我们把项目下载到Xtron来体验一下。
    
@@ -56,13 +56,13 @@ Arcade介绍
 
     点击左下角的【下载】按键，选择【F4】。
 
-    .. image:: images/fastuse6.gif
+    .. image:: images/4.gif
     
     .. image:: images/null.png
 
     找到刚才下载的.uf2 文件，右击鼠标，选择发送到Xtron.
 
-    .. image:: images/fastuse7.gif
+    .. image:: images/5.gif
 
     .. image:: images/null.png
 
@@ -72,7 +72,7 @@ Arcade介绍
 
     回到主页，点击【新建项目】，为项目起一个名字。
 
-    .. image:: images/fastuse8.gif
+    .. image:: images/6.gif
 
     .. image:: images/null.png
 
@@ -80,7 +80,7 @@ Arcade介绍
 
     创建两个精灵之后，他们默认是出现在屏幕中央，你可以改变一下第一个精灵的位置。我们屏幕的大小是120*160.
 
-    .. image:: images/fastuse9.gif
+    .. image:: images/7.gif
     
     .. image:: images/null.png
 
@@ -88,7 +88,7 @@ Arcade介绍
 
 4. 除了下载，你还可以用分享的方式向朋友展示你的作品。点击【发布项目】，会生成一个项目链接，通过这个链接，你的朋友可以访问到你的作品，并且可以在他的电脑上编辑你的程序。
 
-    .. image:: images/fastuse10.gif
+    .. image:: images/8.gif
 
 5. Arcade提供了丰富的积木块，如果你想要了解每一个积木块的功能，可以参考后面的 `Arcade积木栏详解`_.
 
