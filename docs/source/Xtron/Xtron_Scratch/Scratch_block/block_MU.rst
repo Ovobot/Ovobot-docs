@@ -279,7 +279,7 @@
 
     实验现象：未检测到卡片则视觉传感器LED闪红灯，屏幕显示”card undetected”。识别到则视觉传感器LED闪蓝灯，屏幕显示返回的坐标信息和交通卡片的具体图案信息。
 
-.. image:: images/MUlizi2.png
+.. image:: images/MUlizi1.png
 
 3. 颜色识别
 
