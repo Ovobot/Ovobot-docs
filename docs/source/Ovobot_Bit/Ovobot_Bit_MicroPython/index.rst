@@ -16,11 +16,9 @@ Ovobot Bit MicroPython指南
 运动
 -----
 
-.. code-block:: python
+.. py:function:: move(dir, speed)
 
-    .. py:function:: moveAtSpeed(dir, speed)
-
-    设置Bit的前进或后退的速度，数值范围为0~255。
+    通过设定机器人运动方向、运动速度和持续时间来让机器人运动，速度范围为0~255。
 
     :param int dir: 可以为0或者1，0：机器人向前运动，1：机器人向后运动。
     :param int speed: 设置机器人运动的速度，数值范围为0~255。
@@ -217,21 +215,21 @@ value在显示屏上水平滚动，如果value为整数或浮点数，则首先�
 
 解析：当绿旗被点击时，Bit机器人的LED灯显示“❤”的图案，等待2秒后，熄灭屏幕。
 
-.. py:function:: display.set_pixel(x, y, value)
+.. py:function:: display.set_pixel(x, y, action)
 
     点亮Bit机器人LED点阵屏上某个坐标的LED，x、y的数值范围为0~4，零点在点阵屏的左上角，水平向右为x轴，竖直向下为y轴。
     
     :param int x: 对应x轴的坐标，数值范围为0~4。
     :param int y: 对应y轴的坐标，数值范围为0~4。
-    :param int value: 0：熄灭，9：点亮。
+    :param int action: 0：熄灭，9：点亮。
 
-.. py:function:: display.set_pixel(x, y, action)
+.. py:function:: display.set_pixel(x, y, value)
 
-    将列x和行的LED亮度设置y为value，必须是0到9之间的整数。
+    将列x和行的LED亮度设置为value，必须是0到9之间的整数。
 
     :param int x: 设置对应x轴的坐标，数值范围为0~4。
     :param int y: 设置对应y轴的坐标，数值范围为0~4。
-    :param int action: 0：熄灭，9：点亮。
+    :param int value: 0：熄灭，9：点亮。
 
 .. py:function:: display.get_pixel(x, y)
 
